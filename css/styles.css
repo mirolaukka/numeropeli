@@ -1,0 +1,43 @@
+.lowerHigherText{
+    font-size: 100px;
+    color:white
+
+}
+.lowerHigher{
+    border: rgba(0,0,0,1) !important;
+    border-style: solid;
+    width: 40%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.lastNumber{
+    font-size:30px;
+    color: rgb(222, 222, 222);
+}
+
+.triesLeft{
+    font-size:24px;
+    color: rgb(222, 222, 222);
+}
+
+.score{
+    font-size: 80px;
+    color:white
+}
+
+.numberButtons{
+    background-color: rgb(194, 255, 197) !important;
+    color: black !important;
+    border-color: black !important;
+    border-radius: 25px !important;
+}
+
+button:disabled{
+    background-color: rgba(255, 100, 100, 0.4) !important;
+    border-color: black !important;
+}
+
+.restartButton{
+    border-radius: 10px !important;
+}

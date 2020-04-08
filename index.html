@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Numero Peli</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body class="bg-dark">
+    <p class="score text-center">Player - Comp</p>
+    <div class="score text-center">
+        <p class="score" id="score">0 - 0</p>
+
+    </div>
+
+
+
+    <div class="lowerHigher text-center">
+        <p class="lowerHigherText" id="lowerHigher">Lower/Higher</p>
+    </div>
+
+    <!-- BUTTONS -->
+    <div>
+        <div class="container w-50 text-center mt-5">
+            <div class="btn-group btn-group-lg text-center" role="group">
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="0" onclick="checkWin(this)">0</button>
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="1" onclick="checkWin(this)">1</button>
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="2" onclick="checkWin(this)">2</button>
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="3" onclick="checkWin(this)">3</button>
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="4" onclick="checkWin(this)">4</button>
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="5" onclick="checkWin(this)">5</button>
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="6" onclick="checkWin(this)">6</button>
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="7" onclick="checkWin(this)">7</button>
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="8" onclick="checkWin(this)">8</button>
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="9" onclick="checkWin(this)">9</button>
+                <button type="button" class="btn btn-primary mx-1 numberButtons" id="10" onclick="checkWin(this)">10</button>
+            </div>
+            <p class="triesLeft" id="triesLeft">Tries Left: 3</p>
+            <br>
+            <br>
+            <div class="btn-group btn-group-lg">
+                <button type="button" class="btn btn-info restartButton" onclick="restartScore()">Restart Score</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="lastNumber text-center">
+        <p class="lastNumber" id="lastNumber">Last Number:</p>
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <script src="./js/index.js"></script>
+    <script type="text/javascript" src="http://livejs.com/live.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP/CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</body>
+
+</html>
